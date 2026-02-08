@@ -1,27 +1,23 @@
-# Internship-system
+# Internship Placement & Tracking System (TT5L - Group 2)
 
-How to Start the System
-To run the Internship Placement & Tracking System, you need to set up the local server environment using XAMPP. Follow these steps:
+## 1. Project Overview
+A web-based platform to manage student internships, logbooks, and evaluations between the university and industry partners.
 
-1. Launch XAMPP Control Panel
-Open the XAMPP Control Panel application.
-Click the "Start" button next to Apache (to host the website).
-Click the "Start" button next to MySQL (to host the database).
-Ensure both modules turn green, indicating they are running successfully.
+## 2. Team Members
+- Liem Shiaw Wen
+- Yap Yee Xuen
+- Melvin Hee Yi Heng
+- Tan Khai Yu
 
-2. Set Up the Database
-Since your system relies on PHP and MySQL, you must import the database structure:
-Open your web browser and go to: localhost/phpmyadmin.
-Click "New" on the left sidebar to create a new database.
-Database Name: Enter the name specified in your code (e.g., internship_system or db_internship).
-Click the "Import" tab at the top.
-Click "Choose File" and select the .sql file located inside your project folder.
-Scroll down and click "Go" to execute the import.
+## 3. How to Run the System (Quick Start)
+1. Ensure XAMPP is running (Apache & MySQL).
+2. Place the 'internship-system' folder in your xampp/htdocs directory.
+3. Import 'database.sql' into a MySQL database named 'internship_system'.
+4. Access the system via: http://localhost/internship-system/login.php
 
-3. Access the Website
-Ensure your project folder is located in: C:\xampp\htdocs\[your_folder_name].
-Open your browser and type the following URL:
-
-localhost/[your_folder_name]/login.php
-
-**Replace [your_folder_name] with the actual name of your project directory.
+## 4. Default Test Accounts
+- Student: student@example.com (Password: 1234)
+- Company supervisor: company@example.com (Password: 1234)
+  Academic Supervisor: academic@example.com (Password: 1234)
+- Admin: admin@example.com (Password: admin@123)
+- (Note: Check the 'users' table in the database for more test data)
